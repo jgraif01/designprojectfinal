@@ -1,0 +1,81 @@
+.body {
+    height: 1100px;
+    background-color: rgb(177, 220, 248); /* for browsers that do not support gradients */
+    background-image: linear-gradient(#fc49c6, #5699ff, #8774f0);
+}  
+
+.leftside {
+    border: 1px solid black;
+    width: 100px;
+    height: 1115px;
+    top: 0px;
+    position: absolute;
+    left: 0px;
+    position: absolute;
+    font-size: 20px;
+}
+
+.rightside {
+    border: 1px solid black;
+    width: 100px;
+    height: 1115px;
+    float: left;
+    position: absolute; 
+    top: 0px;
+    right: 0px;
+    position: absolute;
+}
+
+.leftsidetext1 {
+    font-size: 20px;
+    position: absolute;
+    top:1px;
+    color: black;
+    font-family: Gaegu;
+}
+
+.leftsidetext2 {
+    font-size: 20px;
+    position: absolute;
+    top:20px;
+    color: black;
+    font-family: Gaegu;
+}
+
+.leftsidetext3 {
+    font-size: 20px;
+    position: absolute;
+    top: 40px;
+    color: black;
+    font-family: Gaegu; 
+}
+
+#h4 {
+    width: 900px;
+    position: absolute;
+    left: 110px;
+    font-family: Gaegu;
+    top: 70px;
+}
+
+#h6 {
+    font-family: Quesha;
+    position: absolute;
+    left: 110px;
+    top: 0px;
+    font-size: 50px; 
+}
+
+#img {
+    position: absolute; 
+    left: 1100px;
+    width: 500px;
+    top: 70px;
+}
+
+#img2 {
+    position: absolute; 
+    left: 1100px;
+    width: 500px;
+    top: 500px;
+}

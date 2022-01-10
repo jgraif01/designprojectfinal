@@ -1,0 +1,106 @@
+.body {
+    height: 887px;
+    background-color: rgb(177, 220, 248); /* for browsers that do not support gradients */
+    background-image: linear-gradient(#fc49c6, #5699ff, #8774f0);
+} 
+
+.leftside {
+    border: 1px solid black;
+    width: 100px;
+    height: 900px;
+    top: 0px;
+    position: absolute;
+    left: 0px;
+    position: absolute;
+    font-size: 20px;
+}
+
+.rightside {
+    border: 1px solid black;
+    width: 100px;
+    height: 900px;
+    float: left;
+    position: absolute; 
+    top: 0px;
+    right: 0px;
+    position: absolute;
+}
+
+.leftsidetext1 {
+    font-size: 20px;
+    position: absolute;
+    top:1px;
+    color: black;
+    font-family: Gaegu;
+}
+
+.leftsidetext2 {
+    font-size: 20px;
+    position: absolute;
+    top:20px;
+    color: black;
+    font-family: Gaegu;
+}
+
+.leftsidetext3 {
+    font-size: 20px;
+    position: absolute;
+    top: 40px;
+    color: black;
+    font-family: Gaegu; 
+}
+
+.rightsidetext {
+    top:0px;
+    position: absolute;
+    right:30px;
+    font-size: 20px;
+    font-family: Gaegu;
+}
+
+#table {
+    position: absolute;
+    left: 200px;
+    top: 80px;
+    border: black;
+}
+
+#title {
+    position: absolute;
+    left: 200px;
+    font-family: Quesha;
+    font-size: 50px;
+}
+
+#nov8 {
+    background-color: rgb(122, 50, 238);
+}
+
+#nov15 {
+    background-color: rgb(122, 50, 238);
+}
+
+#double {
+    background-color: rgb(122, 50, 238);
+}
+
+#dec6 {
+    background-color: rgb(122, 50, 238);
+}
+
+#dec15 {
+    background-color: rgb(122, 50, 238);
+}
+
+#last {
+    background-color: rgb(122, 50, 238);
+}
+
+#para {
+    font-family: Gaegu; 
+    width: 700px; 
+    position: absolute; 
+    left: 200px;
+    top: 300px;
+    padding: 2px;
+}
